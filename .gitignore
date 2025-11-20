@@ -1,0 +1,82 @@
+# 依赖
+node_modules/
+*/node_modules/
+.pnp
+.pnp.js
+
+# 环境变量
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+frontend/.env
+admin/.env
+
+# 构建产物
+dist/
+build/
+*/dist/
+*/build/
+
+# 日志文件
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# 测试覆盖率
+coverage/
+*.lcov
+.nyc_output
+
+# IDE配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 临时文件
+*.tmp
+*.temp
+.cache/
+
+# 上传文件
+uploads/
+backend/uploads/
+
+# 数据库文件
+*.sqlite
+*.db
+
+# Docker数据卷
+docker/mysql/data/
+docker/redis/data/
+docker/mongodb/data/
+
+# 备份文件
+backups/
+*.backup
+*.bak
+
+# 操作系统
+Thumbs.db
+.DS_Store
+
+# TypeScript
+*.tsbuildinfo
+
+# Vite
+.vite/
+*.local
+
+# 其他
+.eslintcache
+.stylelintcache
+

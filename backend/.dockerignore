@@ -1,0 +1,61 @@
+# Node modules
+node_modules
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Build output
+dist
+build
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Environment files
+.env
+.env.*
+
+# Test files
+test
+coverage
+*.spec.ts
+*.test.ts
+jest.config.js
+
+# Documentation
+README.md
+CHANGELOG.md
+*.md
+docs
+
+# Uploads (会在运行时挂载)
+uploads
+logs
+
+# Temp files
+tmp
+temp
+.tmp
+
+# Docker files
+Dockerfile*
+.dockerignore
+
+# CI/CD
+.github
+.gitlab-ci.yml
+Jenkinsfile
+
